@@ -1,0 +1,16 @@
+-User time
+
+Unoptimized faxpy()
+1. 0.835 s
+2. 0.857 s
+3. 0.853 s
+
+4-Lane SIMD faxpySIMD4()
+1. 0.540 s
+2. 0.555 s
+3. 0.488 s
+
+2-Lane SIMD faxpySIMD2()
+1. 0.671 s
+2. 0.662 s
+3. 0.656 s
